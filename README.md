@@ -19,7 +19,9 @@ The core team consists of:
 - Backend Developers
 - Technical Writers & Community Support
 
----
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0E4C75,50:56CCF2,100:2D9CDB&height=4&section=header"/>
+</p>
 
 ## ⚙ Operational Infrastructure
 
@@ -30,7 +32,9 @@ We maintain production-grade systems designed around:
 - Infrastructure reliability  
 - Strict operational procedures  
 
----
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0E4C75,50:56CCF2,100:2D9CDB&height=4&section=header"/>
+</p>
 
 ## 📊 Network Operations Status
 
@@ -40,7 +44,9 @@ We maintain production-grade systems designed around:
 <img src="https://img.shields.io/badge/Monitoring-24%2F7-0A2A43?style=for-the-badge&logo=prometheus&logoColor=56CCF2"/>
 </p>
 
----
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0E4C75,50:56CCF2,100:2D9CDB&height=4&section=header"/>
+</p>
 
 ## 🔐 Security Architecture
 
@@ -50,7 +56,9 @@ We maintain production-grade systems designed around:
 
 Remote signing, hardened server configuration, and layered access control.
 
----
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0E4C75,50:56CCF2,100:2D9CDB&height=4&section=header"/>
+</p>
 
 ## 🤖 Automation Stack
 
@@ -61,4 +69,7 @@ Remote signing, hardened server configuration, and layered access control.
 
 Automation pipelines and infrastructure reproducibility across environments.
 
----
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0E4C75,50:56CCF2,100:2D9CDB&height=4&section=header"/>
+</p>
+

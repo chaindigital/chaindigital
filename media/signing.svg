@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <rect width="1200" height="400" fill="#002c47"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#cfe6ff"/>
+    </marker>
+  </defs>
+  <g font-family="'IBM Plex Mono','Courier New',monospace">
+    <text x="48" y="44" font-size="12" letter-spacing="2.5" fill="#7fa3c2">TMKMS / REMOTE SIGNING — CONSENSUS ON THE NODE, KEYS WITH THE SIGNER</text>
+
+    <!-- zones -->
+    <g fill="none" stroke="#1f5d8a" stroke-dasharray="5 6">
+      <rect x="48" y="72" width="300" height="270" rx="10"/>
+      <rect x="420" y="72" width="330" height="270" rx="10"/>
+      <rect x="822" y="72" width="330" height="270" rx="10"/>
+    </g>
+    <g font-size="11" letter-spacing="2" fill="#7fa3c2">
+      <text x="68" y="98">PUBLIC EDGE</text>
+      <text x="440" y="98">PRIVATE NETWORK</text>
+      <text x="842" y="98">ISOLATED SIGNING HOST</text>
+    </g>
+
+    <!-- public edge -->
+    <g fill="#043a5e" stroke="#1f5d8a">
+      <rect x="72" y="124" width="252" height="54" rx="6"/>
+      <rect x="72" y="214" width="252" height="74" rx="6"/>
+    </g>
+    <text x="92" y="157" font-size="15" fill="#f2f8ff">Network peers</text>
+    <text x="92" y="244" font-size="15" fill="#f2f8ff">Sentry nodes</text>
+    <text x="92" y="268" font-size="12" fill="#a7c4dc">filter before the validator</text>
+    <line x1="198" y1="180" x2="198" y2="210" stroke="#cfe6ff" stroke-width="1.5" marker-end="url(#ar)"/>
+
+    <!-- validator -->
+    <rect x="444" y="124" width="282" height="164" rx="6" fill="#043a5e" stroke="#1f5d8a"/>
+    <text x="466" y="160" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="600" fill="#f2f8ff">Validator</text>
+    <text x="466" y="192" font-size="12" fill="#a7c4dc">runs consensus</text>
+    <text x="466" y="212" font-size="12" fill="#a7c4dc">requests signatures</text>
+    <rect x="466" y="236" width="196" height="28" rx="14" fill="none" stroke="#6fb6ff"/>
+    <text x="482" y="255" font-size="11" letter-spacing="1" fill="#6fb6ff">NO CONSENSUS KEY HERE</text>
+
+    <line x1="326" y1="251" x2="440" y2="206" stroke="#cfe6ff" stroke-width="1.5" marker-end="url(#ar)"/>
+    <text x="336" y="214" font-size="11" fill="#7fa3c2">filtered</text>
+
+    <!-- tmkms -->
+    <rect x="846" y="124" width="282" height="164" rx="6" fill="#043a5e" stroke="#399cff" stroke-width="1.5"/>
+    <text x="868" y="160" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="600" fill="#f2f8ff">TMKMS</text>
+    <g font-size="12" fill="#a7c4dc">
+      <text x="868" y="190">checks chain &amp; message</text>
+      <text x="868" y="210">tracks last signing state</text>
+      <text x="868" y="230">rejects conflicting requests</text>
+    </g>
+    <rect x="868" y="246" width="238" height="28" rx="4" fill="#399cff"/>
+    <text x="882" y="265" font-size="11" letter-spacing="1" fill="#002c47">KEY BACKEND · KEY STAYS HERE</text>
+
+    <!-- sign request / signature -->
+    <line x1="728" y1="178" x2="842" y2="178" stroke="#cfe6ff" stroke-width="1.5" marker-end="url(#ar)"/>
+    <text x="740" y="168" font-size="11" fill="#cfe6ff">sign request</text>
+    <line x1="842" y1="226" x2="728" y2="226" stroke="#6fb6ff" stroke-width="1.5" marker-end="url(#ar)"/>
+    <text x="740" y="246" font-size="11" fill="#6fb6ff">signature only</text>
+
+    <!-- footnotes -->
+    <text x="48" y="374" font-size="12" fill="#7fa3c2">One active signer · standby activated only after the latest signing state is verified · CometBFT-compatible networks</text>
+  </g>
+</svg>

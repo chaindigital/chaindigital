@@ -32,7 +32,7 @@ Our three main networks. On each one, the foundation selected us through its own
 <td>
 <b>Celestia Foundation Delegation Program, Cohort 7</b>, delegation active · <a href="https://forum.celestia.org/t/foundation-delegation-cohort-7-is-live/2232">announcement</a>
 <br/><br/>
-Mainnet validator, and the network where we build the most: analytics, public endpoints and node tooling.
+Mainnet validator and Fibre provider, and the network where we build the most: analytics, public endpoints and node tooling.
 See <a href="#built-for-celestia">Built for Celestia</a> below.
 <br/><br/>
 <a href="https://celestia.explorers.guru/validator/celestiavaloper1t0uga8qxyxacv50ljjjwjw9c2z9y07ekmrzp8u"><b>Delegate&nbsp;→</b></a> &nbsp;·&nbsp;
@@ -95,10 +95,15 @@ Alongside them it keeps rolling snapshots: a missed-blocks overview, proposer re
 
 **CIP and upgrade readiness.** It tracks the official CIPs repository, with an operator watchlist of draft network upgrades and the live app version, so operators can see what to prepare for before an upgrade lands.
 
+#### Fibre: mainnet and mocha-5
+
+We run Fibre servers for Celestia's high-throughput data availability protocol (CIP-51) on both mainnet and mocha-5, each registered on-chain to our validator.
+Our Fibre server is located in **Rosh Ha'Ayin, Israel**, which adds a Middle East location to the set of Fibre providers.
+
 #### [endpoints](https://github.com/chaindigital/endpoints): RPC, API and snapshots
 
 Public RPC and REST for mainnet and mocha-5, plus pruned `pebbledb` snapshots rebuilt every 6 hours, each with a checksum and a manifest.
-Everything is collected on [chaindigital.tech/tools](https://chaindigital.tech/tools).
+Everything is collected on [chaindigital.tech/tools](https://chaindigital.tech/tools), and the snapshots are served from [snapshots.chaindigital.tech](https://snapshots.chaindigital.tech).
 
 #### [celestia](https://github.com/chaindigital/celestia): node scripts
 
@@ -133,4 +138,5 @@ More in [server security for validators](https://docs.chaindigital.tech/validato
   <sub>Distributed team across Thailand, Bali, Australia and Germany · on call 24/7</sub><br/>
   <sub><i>Reliability comes from engineering, not promises.</i></sub>
 </p>
+
 

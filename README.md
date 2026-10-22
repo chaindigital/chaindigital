@@ -105,9 +105,9 @@ Our Fibre server is located in **Rosh Ha'Ayin, Israel**, which adds a Middle Eas
 Public RPC and REST for mainnet and mocha-5, plus pruned `pebbledb` snapshots rebuilt every 6 hours, each with a checksum and a manifest.
 Everything is collected on [chaindigital.tech/tools](https://chaindigital.tech/tools), and the snapshots are served from [snapshots.chaindigital.tech](https://snapshots.chaindigital.tech).
 
-#### [celestia](https://github.com/chaindigital/celestia): node scripts
+#### [celestia-scripts](https://github.com/chaindigital/celestia-scripts): node scripts
 
-Install and upgrade scripts for validator, full and bridge nodes on mainnet and testnet, plus a monitoring setup.
+Install and upgrade scripts for validator, full and bridge nodes and the Fibre server on mainnet and mocha-5. They use official release binaries checked against their checksums, and restore from our snapshots.
 
 <br/>
 
@@ -127,7 +127,8 @@ More in [server security for validators](https://docs.chaindigital.tech/validato
 
 - **[endpoints](https://github.com/chaindigital/endpoints)**: Celestia RPC, API and snapshots, with restore commands
 - **[monad-scanner](https://github.com/chaindigital/monad-scanner)**: Monad block scanner for ordering, conflict and hot-state risk
-- Node guides: [celestia](https://github.com/chaindigital/celestia) · [monad](https://github.com/chaindigital/monad) · [polkadot](https://github.com/chaindigital/polkadot) · [story](https://github.com/chaindigital/story) · [moonbeam](https://github.com/chaindigital/moonbeam)
+- **[celestia-scripts](https://github.com/chaindigital/celestia-scripts)**: install and upgrade scripts for Celestia validator, full, bridge and Fibre
+- Node guides: [monad](https://github.com/chaindigital/monad) · [polkadot](https://github.com/chaindigital/polkadot) · [story](https://github.com/chaindigital/story) · [moonbeam](https://github.com/chaindigital/moonbeam)
 - Upstream: [validator-info](https://github.com/chaindigital/validator-info) · [chain-registry](https://github.com/chaindigital/chain-registry) · [celestia-app](https://github.com/chaindigital/celestia-app) · [awesome-celestia](https://github.com/chaindigital/awesome-celestia)
 
 <br/>
